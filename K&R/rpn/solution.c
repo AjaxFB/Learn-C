@@ -27,7 +27,6 @@ for (; pointer > 1; pointer--) {
 				}
 		}
 	}
-    stack[pointer - 2] -= stack[pointer - 1]; //dont use =+
     stack[pointer - 1] = 0;
     pointer--;
 }
