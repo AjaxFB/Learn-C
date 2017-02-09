@@ -1,1 +1,2 @@
-# Learn-C
+# Learn-and-Push
+Projeto base no Github
