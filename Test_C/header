@@ -1,0 +1,33 @@
+Header
+------
+
+Foi pedido para que você implemente um sistema de cadastro
+de pessoas em C. Como o programa possui um escopo pequeno,
+os dados devem ser salvos em um arquivo, chamado: people.db
+
+No cadastro de pessoas, os seguintes campos são necessários:
+- Nome     (35 caracteres)
+- DataNasc 
+- DataCad  (Data que foi inserido no sistema, pode ser em mktime, ;-))
+
+O programa deve ser capaz de adicionar novas pessoas bem como listar
+todas as existentes.
+
+Para isso, foi sugerido que use o seguinte layout:
+
+               +--------+
+               +pessoa.h+
+               +--------+
++------+            |
++main.c+------------|  
++------+            |
+               +--------+
+               +pessoa.c+
+               +--------+
+
+main.c   -> Deve apenas pedir ao usuário se deseja inserir
+            ou visualizar os registros.
+
+pessoa.h -> Definicao básica de 'pessoa'
+
+pessoa.c -> Deve ler/escrever no arquivo uma pessoa.
